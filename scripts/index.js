@@ -1,7 +1,7 @@
-//Trip Advisor API URL, host and key are stored in const variables
-const API_URL = "https://tripadvisor1.p.rapidapi.com/";
-const tripAdvisorHost = "tripadvisor1.p.rapidapi.com";
-const tripAdvisorKey = "<YOUR_API_KEY>";
+let urlParams = new URLSearchParams(window.location.search);
+const API_URL = 'https://travel-advisor.p.rapidapi.com/';
+const tripAdvisorHost = 'travel-advisor.p.rapidapi.com';
+const tripAdvisorKey = '376546c246mshf5818e5483096dap1ec6d9jsnc3786e1a599c';
 
 /*
 This function will manage the behavior of view more button and will show the new city cards if view more button is clicked 
